@@ -27,7 +27,7 @@ var currencyCode = items.filter(function (item) {
 	return item.currency_code === "GBP";
 })
 
-var str3 = currencyCode[0].title;
+var str3 = currencyCode[0].title + " &pound"+ currencyCode[0].price + "\n";
 
 document.querySelector("#answer3").innerHTML = str3;
 
